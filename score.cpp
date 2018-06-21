@@ -111,7 +111,7 @@ int main() {
     cout << "average:" << fixed << setprecision(2) << (mscore + fscore)/(mcounter + fcounter) << endl << "male average:" << fixed << mscore/mcounter << endl << "female average:" << fixed << fscore/fcounter << endl;
 
  
-    for(int i = 1; i < counter ; i++)
+    for(int i = 1; i <= counter ; i++)
     {
       cout << i << ":" << student[i].name << " " << student[i].sex << " " <<  student[i].nature_score << endl;
     }
